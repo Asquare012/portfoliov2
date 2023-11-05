@@ -16,8 +16,9 @@ const projectData = [
     details:
       "Moviebox is a simple online movie store that displays list of top 20 trending movies and their ratings",
     stack: ["HTML", "JavaScript", "SASS", "React", "API"],
-    githubLink: "https://github.io/asquare012/movie",
-    liveLink: "https://github.com/Asquare012/movie",
+    githubLink: "https://github.com/Asquare012/movie",
+    liveLink: "https://asquare012.github.io/movie",
+
     gitIcon: github,
     liveIcon: live,
   },
@@ -29,8 +30,9 @@ const projectData = [
     details:
       "Sneakers is a product checkout page that displays product cart/information ",
     stack: ["HTML", "JavaScript", "SASS", "React"],
-        githubLink: "https://github.io/asquare012/sneakers",
-    liveLink: "https://github.com/Asquare012/sneakers",
+    githubLink: "https://github.com/Asquare012/sneakers",
+    liveLink: "https://asquare012.github.io/sneakers",
+
     gitIcon: github,
     liveIcon: live,
   },
@@ -42,8 +44,8 @@ const projectData = [
     details:
       "Portfolio v2 is the newest version of my portfolio with a simple animation",
     stack: ["HTML", "JavaScript", "SASS", "React", "Framer Motion"],
-    githubLink: "https://github.io/asquare012/portfoliov2",
-    liveLink: "https://github.com/Asquare012/portfoliov2",
+    githubLink: "https://github.com/Asquare012/portfoliov2",
+    liveLink: "https://asquare012.github.io/portfoliov2",
     gitIcon: github,
     liveIcon: live,
   },
@@ -56,7 +58,7 @@ const projectData = [
       "Crypto live pricei is a simple single page website that displays the prices of top 50 cryptocurrencies",
     stack: ["HTML", "JavaScript", "SASS", "React", "API"],
     githubLink: "https://github.io/asquare012/crypto",
-    liveLink: "https://github.com/Asquare012/crypto",
+    liveLink: "https://asquare012.github.io2/crypto",
     gitIcon: github,
     liveIcon: live,
   },
