@@ -447,6 +447,14 @@ body {
 
                                     & a {
                                         color: $solid_heading;
+
+                                        & :active {
+                                            color: #ce0d0d;
+                                        }
+
+                                        & :focus {
+                                            color: #cc7a06;
+                                        }
                                     }
                                 }
                             }
@@ -1020,7 +1028,7 @@ body {
 
         // Projects
         .Project {
-            height: 2000px;
+            height: 2100px;
             margin-bottom: -130px;
 
             & .Second {
@@ -1139,6 +1147,17 @@ body {
                         & img {
                             height: 50px;
                         }
+                    }
+                }
+            }
+        }
+
+        // Projects
+        .Project {
+            & .Second {
+                & ul {
+                    & li {
+                        height: 400px;
                     }
                 }
             }
@@ -1290,7 +1309,6 @@ body {
                 }
 
                 &:last-child {
-
                     & ul {
                         & li {
                             width: 80%;

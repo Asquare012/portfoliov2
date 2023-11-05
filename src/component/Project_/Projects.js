@@ -29,8 +29,8 @@ const projectData = [
     details:
       "Sneakers is a product checkout page that displays product cart/information ",
     stack: ["HTML", "JavaScript", "SASS", "React"],
-    githubLink: "",
-    liveLink: "",
+        githubLink: "https://github.io/asquare012/sneakers",
+    liveLink: "https://github.com/Asquare012/sneakers",
     gitIcon: github,
     liveIcon: live,
   },
@@ -41,9 +41,9 @@ const projectData = [
     title: "PORTFOLIO v2",
     details:
       "Portfolio v2 is the newest version of my portfolio with a simple animation",
-    stack: ["HTML", "JavaScript", "SASS", "React", "Framer Motion", "API"],
-    githubLink: "",
-    liveLink: "",
+    stack: ["HTML", "JavaScript", "SASS", "React", "Framer Motion"],
+    githubLink: "https://github.io/asquare012/portfoliov2",
+    liveLink: "https://github.com/Asquare012/portfoliov2",
     gitIcon: github,
     liveIcon: live,
   },
@@ -93,7 +93,6 @@ const Project = () => {
                     <a href={work.liveLink} target="_blank" rel="noreferrer">
                       Live Preview
                     </a>
-
                     <img src={work.gitIcon} alt="github" />
                     <a href={work.githubLink} target="_blank" rel="noreferrer">
                       View Code
