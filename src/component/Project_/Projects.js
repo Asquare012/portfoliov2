@@ -58,7 +58,7 @@ const projectData = [
       "Crypto live pricei is a simple single page website that displays the prices of top 50 cryptocurrencies",
     stack: ["HTML", "JavaScript", "SASS", "React", "API"],
     githubLink: "https://github.io/asquare012/crypto",
-    liveLink: "https://asquare012.github.io2/crypto",
+    liveLink: "https://asquare012.github.io/crypto",
     gitIcon: github,
     liveIcon: live,
   },
