@@ -16,9 +16,8 @@ const projectData = [
     details:
       "Moviebox is a simple online movie store that displays list of top 20 trending movies and their ratings",
     stack: ["HTML", "JavaScript", "SASS", "React", "API"],
-    githubLink: "https://github.com/Asquare012/movie",
+    githubLink: "https://github.com/asquare012/movie",
     liveLink: "https://asquare012.github.io/movie",
-
     gitIcon: github,
     liveIcon: live,
   },
@@ -28,11 +27,10 @@ const projectData = [
     alt: "sneakers",
     title: "SNEAKERS",
     details:
-      "Sneakers is a product checkout page that displays product cart/information ",
+      "Sneakers is a product checkout page that displays product information/ cart",
     stack: ["HTML", "JavaScript", "SASS", "React"],
-    githubLink: "https://github.com/Asquare012/sneakers",
+    githubLink: "https://github.com/asquare012/sneakers",
     liveLink: "https://asquare012.github.io/sneakers",
-
     gitIcon: github,
     liveIcon: live,
   },
@@ -41,10 +39,9 @@ const projectData = [
     img: portfolio,
     alt: "portfolio",
     title: "PORTFOLIO v2",
-    details:
-      "Portfolio v2 is the newest version of my portfolio with a simple animation",
+    details: "Portfolio v2 is the newest version of my portfolio",
     stack: ["HTML", "JavaScript", "SASS", "React", "Framer Motion"],
-    githubLink: "https://github.com/Asquare012/portfoliov2",
+    githubLink: "https://github.com/asquare012/portfoliov2",
     liveLink: "https://asquare012.github.io/portfoliov2",
     gitIcon: github,
     liveIcon: live,
@@ -55,7 +52,7 @@ const projectData = [
     alt: "crypto",
     title: "CRYPTO LIVE PRICE",
     details:
-      "Crypto live pricei is a simple single page website that displays the prices of top 50 cryptocurrencies",
+      "Crypto live price is a simple single page website that display the prices of top 50 cryptocurrencies",
     stack: ["HTML", "JavaScript", "SASS", "React", "API"],
     githubLink: "https://github.com/asquare012/crypto",
     liveLink: "https://asquare012.github.io/crypto",

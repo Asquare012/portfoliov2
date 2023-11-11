@@ -677,6 +677,10 @@ body {
 
 // mobile(bigger screen)
 @media screen and (max-width:950px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
     .App {
         .Container {
             height: 800px;
@@ -1028,7 +1032,7 @@ body {
 
         // Projects
         .Project {
-            height: 2100px;
+            height: 2300px;
             margin-bottom: -130px;
 
             & .Second {

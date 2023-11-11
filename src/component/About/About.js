@@ -7,14 +7,7 @@ import date from "./date.png";
 const exData = [
   {
     id: 0,
-    role: "Frontend Web Developer [Internship]",
-    type: "Remote",
-    place: "HNG",
-    location: "Nigeria",
-    date: "2023",
-  },
-  {
-    id: 1,
+
     role: "Frontend Web Developer [Internship]",
     type: "Remote",
     place: "KindleGate foundation",
@@ -22,8 +15,16 @@ const exData = [
     date: "2023",
   },
   {
+    id: 1,
+    role: "Frontend Web Developer [Internship]",
+    type: "Remote",
+    place: "HNG",
+    location: "Nigeria",
+    date: "2023",
+  },
+  {
     id: 2,
-    role: " ",
+    role: "Internship/junior role in your company",
     type: " ",
     place: " ",
     location: " ",
