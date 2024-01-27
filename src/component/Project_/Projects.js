@@ -4,20 +4,20 @@ import github from "./gith.png";
 import moviebox from "./moviebox.png";
 import cart from "./cart.png";
 import portfolio from "./portfoliom.png";
-import crypto from "./crypto.png";
+import nft from "./nft.png";
 
-// project object
+// project data
 const projectData = [
   {
     id: 0,
-    img: moviebox,
-    alt: "movie box",
-    title: "MOVIEBOX",
+    img: nft,
+    alt: "nft-marktplace",
+    title: "NFT-Marketplace",
     details:
-      "Moviebox is a simple online movie store that displays list of top 20 trending movies and their ratings",
-    stack: ["HTML", "JavaScript", "SASS", "React", "API"],
-    githubLink: "https://github.com/asquare012/movie",
-    liveLink: "https://asquare012.github.io/movie",
+      "NFT-Marketplace is a web based web3 market for exploring, buying and selling of NFT's",
+    stack: ["React", "SASS", "Framer Motion"],
+    githubLink: "https://github.com/asquare012/nft-marketplace",
+    liveLink: "https://asquare012.github.io/nft-marketplace",
     gitIcon: github,
     liveIcon: live,
   },
@@ -40,7 +40,7 @@ const projectData = [
     alt: "portfolio",
     title: "PORTFOLIO v2",
     details: "Portfolio v2 is the newest version of my portfolio",
-    stack: ["HTML", "JavaScript", "SASS", "React", "Framer Motion"],
+    stack: ["React", "SASS", "Framer Motion"],
     githubLink: "https://github.com/asquare012/portfoliov2",
     liveLink: "https://asquare012.github.io/portfoliov2",
     gitIcon: github,
@@ -48,14 +48,14 @@ const projectData = [
   },
   {
     id: 3,
-    img: crypto,
-    alt: "crypto",
-    title: "CRYPTO LIVE PRICE",
+    img: moviebox,
+    alt: "movie box",
+    title: "MOVIEBOX",
     details:
-      "Crypto live price is a simple single page website that display the prices of top 50 cryptocurrencies",
-    stack: ["HTML", "JavaScript", "SASS", "React", "API"],
-    githubLink: "https://github.com/asquare012/crypto",
-    liveLink: "https://asquare012.github.io/crypto",
+      "Moviebox is a simple online movie store that displays list of top 20 trending movies and their ratings",
+    stack: ["React", "SASS", "API"],
+    githubLink: "https://github.com/asquare012/movie",
+    liveLink: "https://asquare012.github.io/movie",
     gitIcon: github,
     liveIcon: live,
   },

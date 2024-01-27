@@ -6,16 +6,7 @@ import date from "./date.png";
 // experience data
 const exData = [
   {
-    id: 0,
-
-    role: "Frontend Web Developer [Internship]",
-    type: "Remote",
-    place: "KindleGate foundation",
-    location: "Nigeria",
-    date: "2023",
-  },
-  {
-    id: 1,
+   id: 0,
     role: "Frontend Web Developer [Internship]",
     type: "Remote",
     place: "HNG",
@@ -23,8 +14,16 @@ const exData = [
     date: "2023",
   },
   {
+     id: 1,
+    role: "Internship/junior role in your company 😏🤲",
+    type: " ",
+    place: " ",
+    location: " ",
+    date: " ",
+  },
+  {
     id: 2,
-    role: "Internship/junior role in your company",
+    role: " ",
     type: " ",
     place: " ",
     location: " ",
@@ -40,9 +39,9 @@ const About = () => {
         <p style={{ fontSize: "16px" }}>
           <img src={face} alt="face" height="170px" width="140px" />
           I'm <strong>Hassan Abass</strong> from
-          <strong> Lagos, Nigeria.</strong> a
-          <strong>front-end web engineer</strong> and
-          <strong> web 3/crypto entheusiast.</strong>
+          <strong> Lagos, Nigeria. </strong>A
+          <strong> front-end web engineer</strong> and
+          <strong> web 3/crypto enthusiast.</strong>
           <br />
           I specialize in developing responsive stunning webpages with an
           extreme attention to details.
@@ -51,7 +50,9 @@ const About = () => {
           <br />
           Aside coding, i create content and watch movies as hubbies.
           <br />
-          <button>DOWNLOAD RESUME</button>
+          <a href="./resume.pdf" download>
+            <button>DOWNLOAD RESUME</button>
+          </a>
         </p>
       </div>
       <div className="Experience">

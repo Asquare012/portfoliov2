@@ -383,12 +383,13 @@ body {
                 & li {
                     cursor: default;
                     list-style: none;
-                    height: 360px;
+                    height: 350px;
                     width: 85%;
                     border-radius: 10px;
                     background-color: #363636;
                     color: $solid_heading;
                     transition: scale 0.2s ease-in-out;
+                    font-size: 12px;
 
                     &:hover {
                         scale: 1.06;
@@ -1032,7 +1033,7 @@ body {
 
         // Projects
         .Project {
-            height: 2300px;
+            height: 2100px;
             margin-bottom: -130px;
 
             & .Second {
@@ -1151,17 +1152,6 @@ body {
                         & img {
                             height: 50px;
                         }
-                    }
-                }
-            }
-        }
-
-        // Projects
-        .Project {
-            & .Second {
-                & ul {
-                    & li {
-                        height: 400px;
                     }
                 }
             }
