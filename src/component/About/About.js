@@ -2,11 +2,12 @@ import face from "./face.jpg";
 import place from "./place.png";
 import location from "./location.png";
 import date from "./date.png";
+import pdf from "./resume.pdf";
 
 // experience data
 const exData = [
   {
-   id: 0,
+    id: 0,
     role: "Frontend Web Developer [Internship]",
     type: "Remote",
     place: "HNG",
@@ -14,7 +15,7 @@ const exData = [
     date: "2023",
   },
   {
-     id: 1,
+    id: 1,
     role: "Internship/junior role in your company 😏🤲",
     type: " ",
     place: " ",
@@ -50,7 +51,7 @@ const About = () => {
           <br />
           Aside coding, i create content and watch movies as hubbies.
           <br />
-          <a href="./resume.pdf" download>
+          <a href={pdf} download="Hassan's resume.pdf">
             <button>DOWNLOAD RESUME</button>
           </a>
         </p>
