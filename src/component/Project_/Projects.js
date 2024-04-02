@@ -1,7 +1,7 @@
 import live from "./link.png";
 import github from "./gith.png";
 // project images
-import moviebox from "./moviebox.png";
+import movie from "./movie.png";
 import cart from "./cart.png";
 import portfolio from "./portfoliom.png";
 import nft from "./nft.png";
@@ -23,14 +23,14 @@ const projectData = [
   },
   {
     id: 1,
-    img: cart,
-    alt: "sneakers",
-    title: "SNEAKERS",
+    img: movie,
+    alt: "movie",
+    title: "MOVIES REVIEWER",
     details:
-      "Sneakers is a product checkout page that displays product information/ cart",
-    stack: ["HTML", "JavaScript", "SASS", "React"],
-    githubLink: "https://github.com/asquare012/sneakers",
-    liveLink: "https://asquare012.github.io/sneakers",
+      "Movie Reviewer is a web app that display list of movies, enable you search for movie of your choice and provide you with trailer video and brief review about the movie",
+    stack: ["React", "SASS", "API"],
+    githubLink: "https://github.com/asquare012/movie",
+    liveLink: "https://asquare012.github.io/movie",
     gitIcon: github,
     liveIcon: live,
   },
@@ -46,20 +46,22 @@ const projectData = [
     gitIcon: github,
     liveIcon: live,
   },
+
   {
     id: 3,
-    img: moviebox,
-    alt: "movie box",
-    title: "MOVIEBOX",
+    img: cart,
+    alt: "sneakers",
+    title: "SNEAKERS",
     details:
-      "Moviebox is a simple online movie store that displays list of top 20 trending movies and their ratings",
-    stack: ["React", "SASS", "API"],
-    githubLink: "https://github.com/asquare012/movie",
-    liveLink: "https://asquare012.github.io/movie",
+      "Sneakers is a product checkout page that displays product information/ cart",
+    stack: ["HTML", "JavaScript", "SASS", "React"],
+    githubLink: "https://github.com/asquare012/sneakers",
+    liveLink: "https://asquare012.github.io/sneakers",
     gitIcon: github,
     liveIcon: live,
   },
 ];
+
 const Project = () => {
   return (
     <div className="Project" id="Project">
