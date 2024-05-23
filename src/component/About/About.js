@@ -41,11 +41,12 @@ const About = () => {
           <img src={face} alt="face" height="170px" width="140px" />
           I'm <strong>Hassan Abass</strong> from
           <strong> Lagos, Nigeria. </strong>A
-          <strong> front-end web engineer</strong> and
-          <strong> web 3/crypto enthusiast.</strong>
+          <strong> front-end web engineer</strong>,
+          <strong> web 3/crypto enthusiast.
+  </strong>and aspiring MERN fullstack developer.
           <br />
           I specialize in developing responsive stunning webpages with an
-          extreme attention to details.
+          extreme attention to details. Aside which I'm currently backend technologies like Node, Express and MongoDB.
           <br />
           In addition, i am collaborative in nature, outspoken and cooperative.
           <br />
