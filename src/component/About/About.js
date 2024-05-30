@@ -42,11 +42,12 @@ const About = () => {
           I'm <strong>Hassan Abass</strong> from
           <strong> Lagos, Nigeria. </strong>A
           <strong> front-end web engineer</strong>,
-          <strong> web 3/crypto enthusiast.
-  </strong>and aspiring MERN fullstack developer.
+          <strong> web 3/crypto enthusiast</strong> and
+          <strong>aspiring MERN fullstack developer</strong>.
           <br />
           I specialize in developing responsive stunning webpages with an
-          extreme attention to details. Aside which I'm currently backend technologies like Node, Express and MongoDB.
+          extreme attention to details. Aside which I'm currently backend
+          technologies like Node, Express and MongoDB.
           <br />
           In addition, i am collaborative in nature, outspoken and cooperative.
           <br />
